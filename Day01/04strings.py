@@ -34,3 +34,9 @@ if "free" in txt:
 
 txt = "The best things in life are free!"
 print("expensive" not in txt)
+
+
+# Get the characters from position 2 to position 5 (not included):
+
+b = "Hello, World!"
+print(b[2:5]) #ello
