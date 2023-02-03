@@ -4,6 +4,9 @@ x = "Hello World"
 x = 20
 # float 
 x = 20.5
+x = 35e3
+y = 12E4
+z = -87.7e100
 # complex	
 x = 1j
 # list	
