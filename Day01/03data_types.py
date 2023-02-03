@@ -7,7 +7,7 @@ x = 20.5
 x = 35e3
 y = 12E4
 z = -87.7e100
-# complex	
+# complex	= are written with a "j" as the imaginary part
 x = 1j
 # list	
 x = ["apple", "banana", "cherry"]
@@ -31,3 +31,18 @@ x = bytearray(5)
 x = memoryview(bytes(5))
 # NoneType	
 x = None	
+
+
+# data conversion
+x = 1    # int
+y = 2.8  # float
+z = 1j   # complex
+
+#convert from int to float:
+a = float(x)
+
+#convert from float to int:
+b = int(y)
+
+#convert from int to complex:
+c = complex(x)
