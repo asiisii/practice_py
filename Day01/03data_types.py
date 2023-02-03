@@ -56,3 +56,5 @@ import random
 print(random.randrange(1, 10))
 
 
+# Casting
+#  we can specify a type on to a variable which is called casting
