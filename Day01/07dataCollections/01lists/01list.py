@@ -38,3 +38,10 @@ i = 0
 while i < len(mylist):
   print(mylist[i])
   i = i + 1
+
+# Python - List Comprehension
+mylist = list((0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, True, False))
+# [expression for item in iterable if condition]
+[print(x) for x in mylist if x >= 0]
+
+newlist = ['even' if x % 2 == 0 else 'odd' for x in mylist]
