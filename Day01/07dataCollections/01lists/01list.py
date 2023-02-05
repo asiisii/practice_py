@@ -25,3 +25,16 @@ mylist.pop() #removes the last item
 del mylist[0] # will remove the first index
 del mylist # will delete mylist
 mylist.clear() # will empty the mylist
+
+# Python - Loop Lists
+for x in mylist:            #or  [print(x) for x in thislist]
+  print(x)
+
+for i in range(len(mylist)):
+  print(mylist[i])
+
+
+i = 0
+while i < len(mylist):
+  print(mylist[i])
+  i = i + 1
