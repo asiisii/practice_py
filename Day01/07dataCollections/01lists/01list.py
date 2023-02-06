@@ -45,3 +45,17 @@ mylist = list((0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, True, False))
 [print(x) for x in mylist if x >= 0]
 
 newlist = ['even' if x % 2 == 0 else 'odd' for x in mylist]
+
+# Python - Sort Lists
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort() # [23, 50, 65, 82, 100]
+thislist.sort(reverse=True) # [100, 82, 65, 50, 23]
+
+
+def myfunc(n):
+  return abs(n - 50)
+
+thislist.sort(key = myfunc) # [50, 65, 23, 82, 100]
+
+
