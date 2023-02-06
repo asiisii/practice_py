@@ -60,3 +60,9 @@ def myfunc(n):
 thislist.sort(key = myfunc) # [50, 65, 23, 82, 100]
 
 
+# Python - Copy Lists
+thislist = ["apple", "banana", "cherry"]
+
+mylist = thislist.copy()
+mylist = list(thislist)
+mylist = thislist[:] # when in doubt go with this one
