@@ -45,3 +45,18 @@ my_tuple = tuple(my_list)
 print(my_tuple) # prints (10, 2, 3, 4, 50)
 
 
+# Python - Unpack Tuples
+
+# when you have a tuple with multiple values and you want to assign each value to a different variable
+
+# create a tuple
+my_tuple = (1, 2, 3, 4 , 5, 6)
+
+# unpack the tuple into separate variables
+a, b, *c = my_tuple
+
+print(a) # prints 1
+print(b) # prints 2
+print(c) # prints [3, 4, 5, 6, 7]
+
+
