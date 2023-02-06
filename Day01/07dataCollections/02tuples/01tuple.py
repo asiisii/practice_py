@@ -87,3 +87,11 @@ i = 0
 while i < len(thistuple):
   print(thistuple[i])
   i = i + 1
+
+
+# Python - Join Tuples
+# as we can't change tuple only way we can join tuple is by using "+"
+
+tuple3 = tuple1 + tuple2
+
+
