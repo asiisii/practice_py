@@ -60,3 +60,13 @@ print(b) # prints 2
 print(c) # prints [3, 4, 5, 6, 7]
 
 
+# Discard unwanted elements: You can use an underscore (_) to discard the unwanted elements of the tuple when unpacking:
+# create a tuple
+my_tuple = (1, 2, 3, 4, 5)
+
+# unpack only the first two elements
+a, b, *_ = my_tuple
+
+print(a) # prints 1
+print(b) # prints 2
+
