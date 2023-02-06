@@ -51,6 +51,7 @@ newlist = ['even' if x % 2 == 0 else 'odd' for x in mylist]
 thislist = [100, 50, 65, 82, 23]
 thislist.sort() # [23, 50, 65, 82, 100]
 thislist.sort(reverse=True) # [100, 82, 65, 50, 23]
+thislist.reverse()  # this will just reverse the order [23, 82, 65, 50, 100]
 
 
 def myfunc(n):
