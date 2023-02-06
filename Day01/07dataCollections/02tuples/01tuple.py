@@ -95,3 +95,15 @@ while i < len(thistuple):
 tuple3 = tuple1 + tuple2
 
 
+# Python - Tuples Methods
+
+count(): #Returns the number of times a specified value appears in a tuple.
+index(): #Searches the tuple for a specified value and returns the index position of the first match.
+# create a tuple
+tuple1 = (3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5)
+
+# use the count() method
+print(tuple1.count(5)) # prints 3
+
+# use the index() method
+print(tuple1.index(3)) # prints 0
