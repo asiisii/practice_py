@@ -66,3 +66,8 @@ thislist = ["apple", "banana", "cherry"]
 mylist = thislist.copy()
 mylist = list(thislist)
 mylist = thislist[:] # when in doubt go with this one
+
+# Python - Join Lists
+
+list2.extend(list1)
+list2 + list1
