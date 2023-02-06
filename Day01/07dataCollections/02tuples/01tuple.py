@@ -75,3 +75,15 @@ print(a) # prints 1
 print(b) # prints [2, 3, 4 ,5]
 print(c) # prints 7
 
+
+#  Python - Loop Tuples
+for x in my_tuple:
+  print(x)
+
+for i in range(len(my_tuple)):
+  print(my_tuple[i])
+
+i = 0
+while i < len(thistuple):
+  print(thistuple[i])
+  i = i + 1
