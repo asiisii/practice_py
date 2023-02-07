@@ -32,3 +32,12 @@ fruits = {"apple", "banana", "cherry"}
 more_fruits = ["orange", "mango", "grapes"]
 
 fruits.update(more_fruits)
+
+
+# Python - Remove Set Items
+
+myset.remove(4) # it will throw an error if we try to remove nonexisting item
+myset.discard(4) # doesn't throw error if we try to nonexisting item
+myset.pop() #removes random item
+myset.clear() # myset will equal set()
+del myset # will delete everything including the variable
