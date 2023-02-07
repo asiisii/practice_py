@@ -60,3 +60,10 @@ for value in person.values():
 person.copy()
 
 dict(person)
+
+
+# Python - Nested Dictionaries
+
+# dictionary can contain dictionary inside of it
+# access
+person['key1']['key2']
