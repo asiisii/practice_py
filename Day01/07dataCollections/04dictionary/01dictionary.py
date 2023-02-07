@@ -29,3 +29,8 @@ for key, value in person_items:
 
 if 'name' in person:
   print('name exists')
+
+
+# Python - Change Dictionary Items
+person['country'] = 'NP'
+person.update({ 'country' : 'NP' })
