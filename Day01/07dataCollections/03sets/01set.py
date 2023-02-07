@@ -20,3 +20,15 @@ myset.add(5)
 
 if 3 in myset:
     print("3 exists in the set")
+
+
+#  Python - Add Set Items 
+
+myset.add(5)
+
+#  if we have another set or any other iteratable data then we can use update
+
+fruits = {"apple", "banana", "cherry"}
+more_fruits = ["orange", "mango", "grapes"]
+
+fruits.update(more_fruits)
