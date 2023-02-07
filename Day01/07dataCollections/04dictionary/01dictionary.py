@@ -54,3 +54,9 @@ for key in person.keys():
 
 for value in person.values():
   print(value)
+
+
+# Python - Copy Dictionaries
+person.copy()
+
+dict(person)
