@@ -34,3 +34,6 @@ if 'name' in person:
 # Python - Change Dictionary Items
 person['country'] = 'NP'
 person.update({ 'country' : 'NP' })
+
+# and if the key doesn't exist then it will add the key value to the dictionary
+
