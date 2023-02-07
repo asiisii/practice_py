@@ -41,3 +41,20 @@ myset.discard(4) # doesn't throw error if we try to nonexisting item
 myset.pop() #removes random item
 myset.clear() # myset will equal set()
 del myset # will delete everything including the variable
+
+
+# Python - Join Sets
+myset1 = { 1, 2, 3 , 4 }
+myset2 = { 1, 5, 6 }
+myset3 = myset1.union(myset2)
+# or 
+myset3 = myset1 | myset2
+# both will return myset3 = { 1, 2, 3, 4, 5, 6}
+
+myset1.update(myset2) #will update the variable myset1
+
+myset1.intersection_update(myset2) # myset1 will be {1} it will only keep the common item from both set
+myset1.intersection(myset2) # it will return new set, that contains items that are common in both set
+
+myset1.symmetric_difference_update(myset2) # myset1 will have items that are not present on both set
+myset1.symmetric_difference(myset2) # will reutrn new set, of items that are not present on both set
