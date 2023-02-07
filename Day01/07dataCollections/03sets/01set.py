@@ -15,3 +15,8 @@ myset.add(5)
 # if you try to remove elements that doesn't exist in the set it will give an error
 # if you add existing element then it won't get added
 
+
+# Python - access set
+
+if 3 in myset:
+    print("3 exists in the set")
