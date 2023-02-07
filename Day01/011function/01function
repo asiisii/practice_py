@@ -1,0 +1,41 @@
+# If the number of arguments is unknown, add a * before the parameter name:
+# This way the function will receive a tuple of arguments, and can access the items accordingly:
+def my_function(*kids):
+  print("The youngest child is " + kids[2])
+
+my_function("Emil", "Tobias", "Linus")
+
+
+
+# You can also send arguments with the key = value syntax.
+
+# This way the order of the arguments does not matter.
+
+def my_function(child3, child2, child1):
+  print("The youngest child is " + child3)
+
+my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
+
+
+# the *args syntax is used to pass an arbitrary number of arguments to a function. 
+# It allows you to pass a variable number of arguments to a function, which will be packed into a tuple.
+
+def print_args(*args):
+    print(args)
+
+print_args(1, 2, 3)
+# Output: (1, 2, 3)
+
+print_args("Hello", "World")
+# Output: ('Hello', 'World')
+
+# The **kwargs syntax allows you to pass a variable number 
+# of keyword arguments to a function, which will be packed into a dictionary.
+def print_kwargs(**kwargs):
+    print(kwargs)
+
+print_kwargs(a=1, b=2, c=3)
+# Output: {'a': 1, 'b': 2, 'c': 3}
+
+print_kwargs(first_name="John", last_name="Doe")
+# Output: {'first_name': 'John', 'last_name': 'Doe'}
