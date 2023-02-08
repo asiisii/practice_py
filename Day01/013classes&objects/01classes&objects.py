@@ -29,12 +29,21 @@ class Dog:
     def bark(self):
         print(f"{self.name} barks!")
 
+    def __str__(self):
+      return f"{self.name} is a {self.age} year old {self.breed}"
+
 dog = Dog("Fido", "Labrador", 3)
 
 print(dog.name)  # Output: Fido
 dog.bark()  # Output: Fido barks!
 
 
-# The __init__ method is called a constructor and is automatically called 
-# when an object of the class is created. 
 # self is a reference to the instance of the class and is used to access its attributes and methods.
+
+#  __init__
+# The __init__ method is called a constructor and is automatically called when an object of the class is created. 
+
+#  __str__
+# The __str__ method is used to provide a human-readable representation of an object. 
+# It is called when you use the built-in str() function or the print function on an object, 
+# and it should return a string that represents the object
